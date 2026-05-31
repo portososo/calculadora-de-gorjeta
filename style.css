@@ -50,7 +50,6 @@ main {
 }
 
 .conta div,
-.pessoas div {
 .pessoas .input-box {
     margin-top: 0.4rem;
     background-color: var(--green-100);
@@ -79,7 +78,6 @@ main {
 }
 
 .conta:has(input:focus) div,
-.pessoas:has(input:focus) div {
 .conta:has(input:hover) div,
 .pessoas:has(input:focus) .input-box,
 .pessoas:has(input:hover) .input-box,
@@ -241,3 +239,4 @@ main {
     .resultados div > strong {
         font-size: 3rem;
     }
+}
