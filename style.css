@@ -109,6 +109,11 @@ main {
     color: var(--white);
 }
 
+.gorjeta .botao-ativo {
+    background-color: var(--light-green);
+    color: var(--green-800);
+}
+
 .gorjeta input[type="button"]:hover,
 .resultados button:hover {
     background-color: var(--green-hover);
@@ -221,11 +226,6 @@ main {
         width: 100%;
     }
 
-    .conta input::-webkit-inner-spin-button,
-    .pessoas input::-webkit-inner-spin-button {
-        display: none;
-    }
-
     .gorjeta div {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -241,4 +241,3 @@ main {
     .resultados div > strong {
         font-size: 3rem;
     }
-}
